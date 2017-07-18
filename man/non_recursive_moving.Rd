@@ -53,10 +53,10 @@ non_recursive_moving<-function(rts){
   stds <- c(1.458, 1.68, 1.841, 1.961, 2.05, 2.12, 2.173, 
             2.22, 2.246, 2.274, 2.31, 2.326, 2.391, 2.41, 2.4305, 
             2.45, 2.48, 2.5)
-  if(length(restricted_rts>=100)){
+  if(length(rts>=100)){
     sdc=2.5
   }else{
-    sdc<-approx(xsize,stds,xout=length(restricted_rts))$y
+    sdc<-approx(xsize,stds,xout=length(rts))$y
   }
   mean_rts<-mean(rts)
   restricted_rts<-rts[rts > mean_rts - (sd(rts)*sdc) &
