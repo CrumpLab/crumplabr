@@ -1,0 +1,9 @@
+Package: Crump
+Type: Package
+Title: Crump lab functions
+Version: 1.0
+Date: 2017-07-18
+Author: Matthew Crump
+Maintainer: Who to complain to <mcrump@brooklyn.cuny.edu>
+Description: Outlier removal functions, standard error function
+License: none
