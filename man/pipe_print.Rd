@@ -1,14 +1,14 @@
-\name{count_words}
-\alias{count_words}
+\name{pipe_print}
+\alias{pipe_print}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-count_words
+pipe_print
 }
 \description{
-Counts the number of words in a string. Works with a vector of strings, will count all words in each string.
+Print something in a pipe, and let the data pass through to the next part of the pipe
 }
 \usage{
-count_words(x)
+pipe_print(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -42,13 +42,13 @@ count_words(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-x<-c("here are four words")
-count_words(x)
+df %>%
+ pipe_print(df) %>%
+ summarise()
 
-## count_words <- function(x){
-  return(length(unlist(strsplit(x,split=" "))))
-}
+
+## pipe_print <- function(data) {print(data); data}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ count_words }
+\keyword{ pipe_print }
 

@@ -1,0 +1,1 @@
+pipe_print <- function(data) {print(data); data}
