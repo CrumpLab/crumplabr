@@ -1,0 +1,7 @@
+url: https://crumplab.com/crumplabr
+template:
+  package: preferably
+  bootstrap: 5
+
+development:
+  mode: unreleased

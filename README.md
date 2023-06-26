@@ -1,5 +1,6 @@
 # crumplabr
-R functions used in the Human Cognition and Performance Lab
+
+R functions used in the Computational Cognition Lab at Brooklyn College of CUNY.
 
 Can be loaded directly from R command line
 

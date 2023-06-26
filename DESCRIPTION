@@ -1,9 +1,16 @@
-Package: Crump
+Package: crumplabr
 Type: Package
 Title: Crump lab functions
 Version: 1.0
 Date: 2017-07-18
-Author: Matthew Crump
+Authors@R: 
+    person(given = "Matthew J. C.",
+           family = "Crump",
+           role = c("aut", "cre"),
+           email = "mcrump@brooklyn.cuny.edu",
+           comment = c(ORCID = "0000-0002-5612-0090"))
 Maintainer: Who to complain to <mcrump@brooklyn.cuny.edu>
-Description: Outlier removal functions, standard error function
-License: none
+Description: Miscellaneous functions 
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.3
